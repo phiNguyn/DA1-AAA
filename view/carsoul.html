@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../view/css/output.css">
+  <link rel="stylesheet" href="../view/css/index.css">
+</head>
+<body>
+  <div class="w-[1440px] mx-auto">
+  <header class="w-full pt-5">
+    <nav class="w-full h-20 grid grid-cols-[15%_70%_auto] relative">
+        <div class="w-full">
+            <div class="w-full h-full relative">
+                <a href="index.php"><img class="w-full h-full px-5 absolute top-0 left-0"
+                        src="view/img/logo.png" alt="" /></a>
+            </div>
+        </div>
+        <div class="w-full h-full flex px-4 justify-center gap-x-10 items-center">
+            <div
+                class="group    text-lg font-semibold rounded-lg p-2.5 hover:bg-black hover:rounded-lg hover:text-white duration-300 cursor-pointer">
+           <a href="" class=""> Iphone</a>
+           <div class="grid grid-cols-4 w-full p-5 absolute top-full left-0 bg-black mt-14 opacity-0 invisible  group-hover:opacity-100 group-hover:visible group-hover:mt-0 duration-500">
+            <ul class="p-2">
+            <li><a href="" class="mega-sub-item-title">Iphone 15</a></li>
+            <li><a href="" class="mega-sub-item">s</a></li>
+            <li><a href="" class="mega-sub-item">s</a></li>
+            <li><a href="" class="mega-sub-item">d</a></li>
+            <li><a href="" class="mega-sub-item">d</a></li>
+           </ul>
+           <ul class="p-2">
+            <li><a href="" class="mega-sub-item-title">Iphone 15</a></li>
+            <li><a href="" class="mega-sub-item">s</a></li>
+            <li><a href="" class="mega-sub-item">s</a></li>
+            <li><a href="" class="mega-sub-item">d</a></li>
+            <li><a href="" class="mega-sub-item">d</a></li>
+           </ul>
+           <ul class="p-2">
+            <li><a href="" class="mega-sub-item-title">Iphone 15</a></li>
+            <li><a href="" class="mega-sub-item">s</a></li>
+            <li><a href="" class="mega-sub-item">s</a></li>
+            <li><a href="" class="mega-sub-item">d</a></li>
+            <li><a href="" class="mega-sub-item">d</a></li>
+           </ul>
+           <ul class="p-2">
+            <li><a href="" class="mega-sub-item-title">Iphone 15</a></li>
+            <li><a href="" class="mega-sub-item">s</a></li>
+            <li><a href="" class="mega-sub-item">s</a></li>
+            <li><a href="" class="mega-sub-item">d</a></li>
+            <li><a href="" class="mega-sub-item">d</a></li>
+           </ul>
+          </div>
+
+          </div>
+            <div class="text-lg font-semibold">Mac</div>
+            <div class="text-lg font-semibold">Ipad</div>
+            <div class="text-lg font-semibold">Watch</div>
+            <div class="text-lg font-semibold">Accessories</div>
+            <div class="text-lg font-semibold"><a href="index.php?page=list_product">All Product</a></div>
+        </div>
+
+        <div class="w-full flex justify-end items-center gap-x-5">
+            <div class="text-left">
+                <?=$html_acc?>
+            </div>
+            <button class="collapsible"><a href=""></a><img src="view/img/search.svg" alt="" /></button>
+            <div class="relative"><a href="index.php?page=cart"><img src="view/img/cart.svg" alt="" /></a> <span class="w-6 h-6 text-white bg-black text-center rounded-full  absolute -top-3 -right-5"><?=$html_count_cart?></span></div>
+        </div>
+    </nav>
+    <div  class="content  overflow-hidden max-h-0  w-[450px] ml-auto duration-500">
+
+    
+        <form class="search w-96  relative" action="index.php?page=list_product" method="post">
+            <input class="w-full border border-black p-2 rounded-lg" type="text" name="keyword" value="" placeholder="Tìm kiếm ... ">
+            
+        </form>
+    </div>
+    <div class="w-full hidden bg-black  aaa-1"> d</div>
+</header>
+</div>
+</body>
+</html>

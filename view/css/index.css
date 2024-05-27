@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .mega-sub-item{
+        @apply block p-2 hover:bg-black hover:text-white cursor-pointer;
+    }
+    .mega-sub-item-title{
+        @apply block font-bold text-xl mb-5 ;
+    }
+    .input{
+        @apply border border-gray-300 px-4 py-2 rounded-md  duration-300 hover:border-blue-500 focus:outline-none focus:ring focus:border-blue-500;
+    }
+}
